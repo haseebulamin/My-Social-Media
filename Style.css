@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+:root{
+    --mainColor: #39FF14;
+}
+.main{
+    background-color: #8080802e !important;
+}
+.profile-text{
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--mainColor);
+  text-shadow: 0 0 5px var(--mainColor);
+}
+.skill{
+    text-shadow: 0 0 3px var(--mainColor);
+}
+span,.card-title{
+    color: var(--mainColor);
+}
+.card{
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width: 600px){
+    .p-6{
+        padding: 1rem;
+    }
+    .py-sm-4{
+        padding-top: 25px !important;
+        padding-bottom: 10px !important;
+    }
+    .profile{
+        height: 125px !important;
+        width: 125px !important;
+    }
+    .text-5xl {
+        font-size: 1.5rem !important;
+    }
+    .text-lg {
+        font-size: 10px !important;
+    }
+}
